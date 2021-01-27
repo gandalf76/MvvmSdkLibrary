@@ -37,12 +37,9 @@ myService.getPokemonSpritesUrls(pokemonName: String)
 
 Example of usage:
 
-val pokeService = PokeServiceFactory.createPokeService()\n
-lifecycleScope.launch {\n
-  withContext(Dispatchers.IO) {\n
-    val result = pokeService.getPokemonShakespeareanDescription("ivysaur")\n
-  }\n
-}\n
+val pokeService = PokeServiceFactory.createPokeService()
+lifecycleScope.launch {
+
         
 ShakespeareView integration
 ----------------------------
