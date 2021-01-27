@@ -59,9 +59,9 @@ Sample of usage:
       app:layout_constraintBottom_toBottomOf="parent"/>
         
 Custom attributes:
-showLoading: if set to true a progressbar has shown
-description: set the shakespearean translation
-image: load an image
+- showLoading: if set to true a progressbar has shown
+- description: set the shakespearean translation
+- image: load an image
 
 
 
