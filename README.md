@@ -66,7 +66,7 @@ App instruction:
 In the first screen you can:
 - type a pokemon name in the edit text and tap "GET SHAKESPEARE!" button
   for searching the translation. A new screen where the pokemon details
-  will appear if pokemon translation has found. In that caseyou can tap
+  will appear if pokemon translation has found. In that case you can tap
   on the fab favorite button on the bottom right for adding pokemon to
   your favorites
 - tap on the "View favorites" button for having your full favorites
