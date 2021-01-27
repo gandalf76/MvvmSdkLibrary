@@ -23,11 +23,11 @@ Sdk integration:
 
 Because of sdk is "kotlin coroutine friendly", you have to use kotlin coroutines.
 
-Usage:
+*italic* Usage:
 To get the Poke Interface:
 val myService = PokeServiceFactory.createPokeService()
 
-Methods:
+*italic* Methods:
 
 To get the shakesperian description:
 myService.getPokemonShakespeareanDescription(name)
@@ -35,7 +35,7 @@ myService.getPokemonShakespeareanDescription(name)
 To get the pokemon image:
 myService.getPokemonSpritesUrls(pokemonName: String)
 
-Example of usage:
+*italic* Example of usage:
 
 lifecycleScope.launch {
             withContext(Dispatchers.IO) {
@@ -46,7 +46,7 @@ lifecycleScope.launch {
         
 ShakespeareView integration
 ----------------------------
-Sample of usage:
+*italic* Sample of usage:
 
 <com.shakespeare.poke.sdk.widget.ShakespeareView
       android:id="@+id/detail"
@@ -58,7 +58,7 @@ Sample of usage:
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintBottom_toBottomOf="parent"/>
         
-Custom attributes:
+*italic* Custom attributes:
 - showLoading: if set to true a progressbar has shown
 - description: set the shakespearean translation
 - image: load an image
