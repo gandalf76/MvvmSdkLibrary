@@ -35,7 +35,7 @@ myService.getPokemonShakespeareanDescription(name)
 To get the pokemon image:
 myService.getPokemonSpritesUrls(pokemonName: String)
 
-*italic* Example of usage:
+### Example of usage:
 
 lifecycleScope.launch {
             withContext(Dispatchers.IO) {
@@ -46,7 +46,7 @@ lifecycleScope.launch {
         
 ShakespeareView integration
 ----------------------------
-*italic* Sample of usage:
+### Sample of usage:
 
 <com.shakespeare.poke.sdk.widget.ShakespeareView
       android:id="@+id/detail"
@@ -58,7 +58,7 @@ ShakespeareView integration
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintBottom_toBottomOf="parent"/>
         
-*italic* Custom attributes:
+### Custom attributes:
 - showLoading: if set to true a progressbar has shown
 - description: set the shakespearean translation
 - image: load an image
