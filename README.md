@@ -1,5 +1,4 @@
 # MvvmSdkLibrary
-================
 
 Sample of an sdk library module imported in an android application
 
@@ -22,7 +21,7 @@ Sdk integration:
   implementation project(path: ':poke')
 - after sync build.gradle file you're ready to use the sdk
 
-Since sdk is "kotlin coroutine friendly, you have to use kotlin coroutines.
+Because of sdk is "kotlin coroutine friendly", you have to use kotlin coroutines.
 
 Usage:
 To get the Poke Interface:
