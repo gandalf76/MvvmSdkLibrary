@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShakespeareView">
+        <attr name="description" format="string" />
+        <attr name="imageUrl" format="string" />
+        <attr name="showLoading" format="boolean" />
+    </declare-styleable>
+</resources>
