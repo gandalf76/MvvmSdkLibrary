@@ -40,7 +40,6 @@ Example of usage:
 lifecycleScope.launch {
             withContext(Dispatchers.IO) {
                 val result = pokeService.getPokemonShakespeareanDescription("ivysaur")
-                val l="ll"
             }
         }
 
