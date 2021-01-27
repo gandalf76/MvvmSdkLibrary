@@ -23,11 +23,11 @@ Sdk integration:
 
 Because of sdk is "kotlin coroutine friendly", you have to use kotlin coroutines.
 
-*italic* Usage:
+### Usage:
 To get the Poke Interface:
 val myService = PokeServiceFactory.createPokeService()
 
-*italic* Methods:
+###Methods:
 
 To get the shakesperian description:
 myService.getPokemonShakespeareanDescription(name)
