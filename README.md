@@ -6,7 +6,7 @@ Sdk dependencies used:
 ----------------------
 - kotlin coroutines
 - constraint layout
-- retrofit (for htttp remote call
+- retrofit for http remote call
 - glide for images loading
 - mockito for unit tests
 
