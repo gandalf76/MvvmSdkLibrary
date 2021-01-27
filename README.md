@@ -36,28 +36,26 @@ To get the pokemon image:
 myService.getPokemonSpritesUrls(pokemonName: String)
 
 ### Example of usage:
-
-lifecycleScope.launch {
-  withContext(Dispatchers.IO) {             
-    val result = pokeService.getPokemonShakespeareanDescription("ivysaur")            
-  }            
- }
-
+lifecycleScope.launch {  
+withContext(Dispatchers.IO) {  
+val result=pokeService.getPokemonShakespeareanDescription("ivysaur")  
+}  
+}
         
 ShakespeareView integration
 ----------------------------
 ### Sample of usage:
 
-<com.shakespeare.poke.sdk.widget.ShakespeareView
-      android:id="@+id/detail"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      app:showLoading="true"
-      app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintBottom_toBottomOf="parent"/>
-        
+<com.shakespeare.poke.sdk.widget.ShakespeareView  
+android:id="@+id/detail"  
+android:layout_width="match_parent"  
+android:layout_height="match_parent"  
+app:showLoading="true"  
+app:layout_constraintTop_toTopOf="parent"  
+app:layout_constraintStart_toStartOf="parent"  
+app:layout_constraintEnd_toEndOf="parent"  
+app:layout_constraintBottom_toBottomOf="parent"/>
+
 ### Custom attributes:
 - showLoading: if set to true a progressbar has shown
 - description: set the shakespearean translation
