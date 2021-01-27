@@ -36,6 +36,7 @@ To get the pokemon image:
 myService.getPokemonSpritesUrls(pokemonName: String)
 
 Example of usage:
+
 val pokeService = PokeServiceFactory.createPokeService()
 lifecycleScope.launch {
   withContext(Dispatchers.IO) {
