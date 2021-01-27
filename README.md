@@ -27,7 +27,7 @@ Because of sdk is "kotlin coroutine friendly", you have to use kotlin coroutines
 To get the Poke Interface:
 val myService = PokeServiceFactory.createPokeService()
 
-###Methods:
+### Methods:
 
 To get the shakesperian description:
 myService.getPokemonShakespeareanDescription(name)
@@ -38,9 +38,9 @@ myService.getPokemonSpritesUrls(pokemonName: String)
 ### Example of usage:
 
 lifecycleScope.launch {
-            withContext(Dispatchers.IO) {
-                val result = pokeService.getPokemonShakespeareanDescription("ivysaur")
-            }
+        withContext(Dispatchers.IO) {             
+                val result = pokeService.getPokemonShakespeareanDescription("ivysaur")            
+            }            
         }
 
         
